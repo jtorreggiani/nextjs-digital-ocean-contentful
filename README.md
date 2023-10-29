@@ -29,8 +29,12 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Deploy on Digital Ocean
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Sign up for a Digital Ocean account.
+2. Visit [https://cloud.digitalocean.com/apps/new](https://cloud.digitalocean.com/apps/new)
+3. Connect your repository via Github
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Static sites
+
+Digital Ocean will automatically detect the NextJS as a Node project. To deploy your app as a static site on Digital Ocean follow the [Digtal Ocean Static Site Deployment Guide](/documentation/DO_STATIC_DEPLOYS.md).
